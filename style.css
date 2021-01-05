@@ -12,6 +12,7 @@ header{
   background-color: whitesmoke;
   width: 100%;
   height: 80px;
+  padding: 10px;
   align-items: center;
 }
 .logo{
@@ -21,15 +22,20 @@ header{
   height: 50px;
   border-radius: 100%;
 }
-.menu{
+nav{
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 .lien{
+  text-decoration: none;
   width: 100px;
   height: 30px;
   background-color: grey;
   margin: 5px 5px 5px 5px;
-  border-radius: 10%;
+  border-radius: 5px;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -3,6 +3,9 @@
   div.container{
     grid-template-columns: 1fr 1fr;
   }
+  footer{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -23,6 +26,7 @@
     grid-template-columns: 1fr;
   }
 }
+
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -135,4 +139,21 @@ padding: 0 10px;
 
 .container article {
 border: 1px solid red;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  margin-top:1em;
+}
+.colonne_footer{
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  color: white;
+}
+.colonne_footer > a{
+  text-decoration: none;
 }

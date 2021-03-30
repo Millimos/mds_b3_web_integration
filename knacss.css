@@ -3210,4 +3210,25 @@ button:focus {
   display: none;
 }
 
+/* line 66, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+header {
+  background-color: grey;
+}
+
+/* line 69, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+.align-center {
+  align-items: center;
+}
+
+/* line 72, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+.right {
+  margin-left: auto;
+}
+
+/* line 75, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+.badge--big {
+  max-height: 50px;
+  max-width: 50px;
+}
+
 /*# sourceMappingURL=knacss.css.map */

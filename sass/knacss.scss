@@ -63,3 +63,16 @@
 @import "components/badges";     // badges styles
 @import "components/alerts";     // alerts styles
 
+header{
+  background-color: grey;
+}
+.align-center{
+  align-items: center;
+}
+.right{
+  margin-left: auto;
+}
+.badge--big{
+  max-height: 50px;
+  max-width: 50px;
+}

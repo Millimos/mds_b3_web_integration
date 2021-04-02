@@ -13,8 +13,7 @@ header{
   }
 }
 footer{
-  background-color: $gray-400
-  ;
+  background-color: $gray-400;
   div{
     div{
       background-color: $gray-500;
@@ -23,7 +22,13 @@ footer{
 }
 .bg--primary{
   background-color: $color-primary;
+  border: 2px solid darken($color: $color-primary, $amount: 30%);
 }
 .bg--warning{
   background-color: $color-warning;
+  border: solid 2px darken($color: $color-warning, $amount: 30%);
+}
+.btn--round{
+  @extend .btn;
+    border-radius: 10%;
 }

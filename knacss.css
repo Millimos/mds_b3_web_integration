@@ -462,7 +462,7 @@ body {
   font-size: 1.4rem;
   background-color: #fff;
   color: #212529;
-  font-family: "Courier New", "Comic Sans MS", serif;
+  font-family: "Courier New", "Comic Sans MS", "serif";
   line-height: 1.5;
 }
 
@@ -2457,7 +2457,7 @@ progress {
 /* preferably use <button> for buttons !*/
 /* use .btn-- or .button-- classes for variants */
 /* line 7, ../../../Documents/GitHub/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn,
+.btn, .btn--round,
 .button,
 [type="button"],
 button, .btn--primary,
@@ -2488,7 +2488,7 @@ button, .btn--primary,
 }
 
 /* line 33, ../../../Documents/GitHub/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn:focus,
+.btn:focus, .btn--round:focus,
 .button:focus,
 [type="button"]:focus,
 button:focus {
@@ -3237,19 +3237,26 @@ footer {
   background-color: #ced4da;
 }
 
-/* line 19, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+/* line 18, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
 footer div div {
   background-color: #acb3c2;
 }
 
-/* line 24, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+/* line 23, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
 .bg--primary {
   background-color: #0275D8;
+  border: 2px solid #012340;
 }
 
 /* line 27, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
 .bg--warning {
   background-color: #F0AD4E;
+  border: solid 2px #985f0d;
+}
+
+/* line 31, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.btn--round {
+  border-radius: 10%;
 }
 
 /*# sourceMappingURL=knacss.css.map */

@@ -20,15 +20,22 @@ footer{
     }
   }
 }
-.bg--primary{
-  background-color: $color-primary;
-  border: 2px solid darken($color: $color-primary, $amount: 30%);
+//.btn--round{
+//  @extend .btn;
+//    border-radius: 5px;
+//}
+.bg{
+  @each $name, $background-color in $variants-list {
+    &--#{$name}{
+      background-color: $background-color;
+      border: solid 2px darken($background-color, 30%);
+    }
+  }
 }
-.bg--warning{
-  background-color: $color-warning;
-  border: solid 2px darken($color: $color-warning, $amount: 30%);
-}
-.btn--round{
-  @extend .btn;
-    border-radius: 10%;
-}
+/*.btn--round{
+  @mixin round--bouton() {
+  }
+  .mon-bouton{
+    @include round--bouton(10);
+  }
+}*/

@@ -2457,7 +2457,7 @@ progress {
 /* preferably use <button> for buttons !*/
 /* use .btn-- or .button-- classes for variants */
 /* line 7, ../../../Documents/GitHub/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn, .btn--round,
+.btn,
 .button,
 [type="button"],
 button, .btn--primary,
@@ -2488,7 +2488,7 @@ button, .btn--primary,
 }
 
 /* line 33, ../../../Documents/GitHub/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn:focus, .btn--round:focus,
+.btn:focus,
 .button:focus,
 [type="button"]:focus,
 button:focus {
@@ -3242,21 +3242,54 @@ footer div div {
   background-color: #acb3c2;
 }
 
-/* line 23, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
 .bg--primary {
   background-color: #0275D8;
-  border: 2px solid #012340;
+  border: solid 2px #012340;
 }
 
-/* line 27, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.bg--success {
+  background-color: #5CB85C;
+  border: solid 2px #255625;
+}
+
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.bg--info {
+  background-color: #130ede;
+  border: solid 2px #07054e;
+}
+
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
 .bg--warning {
   background-color: #F0AD4E;
   border: solid 2px #985f0d;
 }
 
-/* line 31, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
-.btn--round {
-  border-radius: 10%;
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.bg--danger {
+  background-color: #D9534F;
+  border: solid 2px #761c19;
 }
+
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.bg--inverse {
+  background-color: #333;
+  border: solid 2px black;
+}
+
+/* line 29, ../../../Documents/GitHub/mds_b3_web_integration/sass/_mes_styles.scss */
+.bg--ghost {
+  background-color: transparent;
+  border: solid 2px rgba(0, 0, 0, 0);
+}
+
+/*.btn--round{
+  @mixin round--bouton() {
+  }
+  .mon-bouton{
+    @include round--bouton(10);
+  }
+}*/
 
 /*# sourceMappingURL=knacss.css.map */

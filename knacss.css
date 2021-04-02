@@ -3225,4 +3225,21 @@ header {
   margin-left: auto;
 }
 
+@media screen and (max-width: 576px) {
+  /* line 76, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+  .small-center {
+    margin: auto;
+  }
+}
+
+/* line 80, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+footer {
+  background-color: #ced4da;
+}
+
+/* line 84, ../../../Documents/GitHub/mds_b3_web_integration/sass/knacss.scss */
+footer div div {
+  background-color: #acb3c2;
+}
+
 /*# sourceMappingURL=knacss.css.map */

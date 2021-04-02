@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: grey;
+}
+.align-center{
+  align-items: center;
+}
+.right{
+  margin-left: auto;
+}
+@media screen and (max-width: $small){
+  .small-center{
+    margin: auto;
+  }
+}
+footer{
+  background-color: $gray-400
+  ;
+  div{
+    div{
+      background-color: $gray-500;
+    }
+  }
+}
